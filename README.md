@@ -112,6 +112,7 @@ To integrate this solution in a modern architecture:
 
 ## Other Improvements:
 
+- Parameterization
 - Code catches specific exceptions like socket.timeout and ssl.SSLError but doesn't handle other potential errors that might occur during communication with the DoT server.
 - Consider using secure communication protocols like TLS to encrypt the communication between the proxy server and the client as well.
 - Implementing TLS V1.3, But not all the servers now supporting this
